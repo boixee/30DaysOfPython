@@ -26,14 +26,9 @@ o = 3 % 4
 s = 3 / 4
 t = 3 ** 4
 m = 3 // 4
-
-     #Personal Data
 name = 'Abubakar Salisu'
 familyname = 'Labaran'
 country = 'nigeria'
-
-
-    #remark
 value = 'I am enjoying 30 days of python'
 
     #Question 4
