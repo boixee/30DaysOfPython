@@ -1,58 +1,52 @@
-#Create an empty dictionary called dog
+#Q1
 dog=dict()
 
-#Add name, color, breed, legs, age to the dog dictionary
-dog['name']='Captain'
-dog['color']='Ox blood'
+#Q2
+dog['name']='Jack'
+dog['color']='Red'
 dog['legs']='4'
 dog['age']='5'
 print(dog)
 
-#Create a student dictionary and add first_name, last_name, gender, age, 
-#marital status, skills, country, city
-#and address as keys for the dictionary
+#Q3
 student={
     'first_name':'Abubakar',
-    'last_name':'Auwal Khalid',
+    'last_name':'Usman Muhammad',
     'gender':'Male',
-    'age':'150',
+    'age':'230',
     'is_married':'True',
-    'skills':['Java','Python','R','C#'],
+    'skills':['corel','Python','C#'],
     'country':'Nigeria',
-    'city':'Kaura Namoda'   
+    'city':'Kano'   
 }
 print(student)
 
-#Get the length of the student dictionary
+#q4
 print(len(student))
 
-#Get the value of skills and check the data type, it should be a list
+#Q5
 print(student['skills'])
 print(type(student['skills']))
 
-#Modify the skills values by adding one or two skills
-student['skills'].append('Java Script')
+#Q6
 student['skills'].append('HTML')
 student['skills'].append('PHP')
 print(student['skills'])
 
-#Get the dictionary keys as a list
+#Q7
 keys=student.keys()
 print(keys)
 
-#Get the dictionary values as a lis
+#Q8
 values=student.values()
 print(values)
 
-#Change the dictionary to a list of tuples using items() method
+#Q9
 print(student.items())
 
-#Delete one of the items in the dictionary
-student.popitem() #city removed
+#Q10
+student.popitem() #Skills
 print(student)
 
-#Delete one of the dictionaries
+#Q11
 del dog
-#print(dog)
-
-print("Alhamdulillah! Day 8 challenge done!")
